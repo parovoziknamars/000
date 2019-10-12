@@ -1,0 +1,187 @@
+body {
+    font-family: 'Segoe UI Light';
+    background: #fff;
+    color: #323332;
+    padding: 0;
+    margin: 0;
+}
+
+div, a, img, p {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #323332;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+    margin: 0;
+}
+
+.container {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.menu {
+	display: flex;
+	margin-left: 340px;
+}
+
+
+.menu li a {
+    color:#323332;
+    margin-right: 60px auto;
+    font-size: 23px;
+    display: block;
+    width: 100px;
+    text-align: center;
+	padding: 7px;	
+}
+
+.menu li.active a:hover {
+    color: #fff;
+    background: #323332;
+    width: 100px;
+  	transition: all 0.5s ease;
+}
+
+h1 {
+    font-size: 60px;
+    color: #323332;
+    margin-left: 20px;
+    margin-top: 200px;
+    font-weight: lighter;
+}
+
+.offer {
+   
+	align-items: center;
+	margin-top: 100px;
+   
+}
+
+.offer-content p {
+    font-size: 45px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.offer-content a {
+    color: #fff;
+    font-size: 23px;
+    margin-top: 35px;
+    margin-left: 25px;
+    display: block;
+    width: 205px;
+    text-align: center;
+    padding: 6px;
+    background: #323332;
+}
+
+.ipad {
+	background: url("../img/ipad.png");
+	width: 817px;
+	height: 384px;
+	margin-right: -130px;
+    margin-left: auto;
+    margin-top: -250px;
+}
+
+.guide {
+    display:flex;
+    margin-top: 60px;
+}
+
+.cssauthor {
+    margin-right: 35px;
+}
+
+.loren {
+    margin-right: 85px;
+
+}
+
+.guide h2 {
+    font-size: 30px;
+}
+
+.loren p {
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+
+    
+
+table p {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px auto;
+}
+
+
+table h2 {
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+table p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.place {
+    display: flex;
+}
+
+.signmeup {
+    display: block;
+    background: #393a39;
+    margin-top: 25px;
+    color: #fff; 
+    outline: none;
+    margin-top: 22px;
+    
+     
+    
+}
+
+.signmeup h2 {
+    font-size: 27px;
+    font-weight: lighter;
+}
+
+
+
+
+
+.signup {
+    text-align: center;
+}
+
+footer {
+    display: block;
+    color: #fff;
+    background: #393a39;
+    text-align: center;
+    font-size: 16px;
+    padding: 25px 0;
+    margin-top: 55px;  
+    align-items:center;
+ 
+}
+
